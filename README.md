@@ -19,4 +19,6 @@ The R script, "run_analysis.R", provided completes the following steps:
 	5. Loads the "X_train.txt" test data, using the column names from step 3, and appends the "y_train.txt" to the "activityNum" column and the "subject_train.txt" to the "subject column
 	6. Binds both datasets together into one masterData data frame
 	7. Imports the activity cross-reference from "activity_labels.txt" and joins to masterData to replace the activity reference number with the descriptive label
-	8. 
+	8. Selects only the subject, activity and mean and standard deviations
+	9. Aggregates the data into a tidy data frame with averages of mean and standard deviation for each activity for each subject
+	10. Saves the tidy data into a file "tidyData.txt" in the working directory
