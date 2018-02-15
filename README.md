@@ -1,7 +1,7 @@
 # gathering_and_cleaning_data
 Repo for "Gathering and Cleaning Data" Coursera Course Project
 
-#Requirements
+# Requirements
 The define requirements for this project are:
     1. The submitted data set is tidy.
     2. The Github repo contains the required scripts.
@@ -9,7 +9,7 @@ The define requirements for this project are:
     4. The README that explains the analysis files is clear and understandable.
     5. The work submitted for this project is the work of the student who submitted it.
 	
-#The R Script
+# The R Script
 The R script, "run_analysis.R", provided completes the following steps:
 	1. Loads the "dplyr" library
 	2. If you do not already have the "getdata_projectfiles_UCI HAR Dataset.zip" file in your working directory, it downloads the file from the source
